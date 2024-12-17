@@ -14,11 +14,17 @@
 }
 
 .btn {
-    padding: 15px 30px;
+    padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 18px;
+
+    @media screen and (min-width: 768px) {
+        margin: 0 30px;
+        font-size: 18px;
+    }
+
+    margin: 0 5px;
     font-weight: bold;
     border: solid 1px;
     transition: all ease 0.3s;
@@ -33,6 +39,7 @@
             background-color: $color;
             border-color: darkenBorder($color);
             color: getFontColor($color);
+            display: inline-block;
 
             &:hover {
                 $bg-hover: lighten($color, 10%);

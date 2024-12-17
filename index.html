@@ -9,10 +9,25 @@
 </head>
 <body>
     <header class="header-website">
-        Header
+        <nav class="navbar">
+            <div class="logo">
+                <!-- <img src="assets/img/logo.png" alt="Logo Abdellaziz HELOUI"> #} -->
+                <span class="logo-text">Abdellaziz HELOUI</span>
+            </div>
+            <div class="menu">
+                <label class="btn btn-secondary menu-input-label" for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" id="menu-toggle" class="menu-input">                
+                <div class="dropdown-menu">
+                    <ul class="nav-links">
+                        <li class="nav-link"><a href="#accueil">Accueil</a></li>
+                        <li class="nav-link"><a href="#competences">Compétences</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
-        <section class="section-display left-text-content">
+        <section class="section-display left-text-content" id="accueil">
             <article class="text-content">
                 <h1 class="title">
                     Abdellaziz HELOUI 
@@ -35,14 +50,14 @@
                 </div>
                 <div class="action-div">
                     <button class="btn btn-primary">Contact</button>
-                    <button class="btn btn-secondary">Mon CV</button>
+                    <button class="btn btn-primary">Mon CV</button>
                 </div>
             </article>
             <div class="illustration">
                 <img src="assets/img/presentation.png" alt="présentation">
             </div>
         </section>
-        <section class="section-display right-text-content">
+        <section class="section-display right-text-content" id="competences">
             <article class="text-content">
                 <h2 class="title">Mes compétences</h2>
                 <p class="paragraph">
@@ -62,7 +77,10 @@
         </section>
     </main>
     <footer>
-        Footer
+        <div id="loader">
+            <div class="loader">
+            </div>
+        </div>
     </footer>
 </body>
 </html>
