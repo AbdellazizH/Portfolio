@@ -13,8 +13,7 @@
             .menu-input {
                 display: none;
 
-
-                &:checked~.nav-links {
+                &:checked~.dropdown-menu {
                     max-height: 100vh;
                 }
             }
@@ -47,7 +46,6 @@
                             @include link-as-text;
                         }
                     }
-
                 }
 
                 @media screen and (min-width: 768px) {
@@ -63,6 +61,5 @@
                 }
             }
         }
-
     }
 }
