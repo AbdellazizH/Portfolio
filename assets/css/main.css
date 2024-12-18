@@ -35,6 +35,13 @@ picture.emoji-gif img {
   height: 1em;
 }
 
+#gotoTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 500;
+}
+
 .header-website {
   position: sticky;
   top: 0;
