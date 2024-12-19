@@ -59,8 +59,8 @@ picture.emoji-gif img {
   padding: 10px;
 }
 .header-website .navbar .logo img {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
 }
 .header-website .navbar .menu .menu-input {
   display: none;
@@ -110,6 +110,10 @@ picture.emoji-gif img {
   display: flex;
   margin-bottom: 24rem;
   flex-direction: column;
+}
+.section-display .text-content {
+  margin-bottom: 50px;
+  font-size: 20px;
 }
 @media screen and (min-width: 768px) {
   .section-display.right-text-content {
@@ -340,6 +344,58 @@ picture.emoji-gif img {
 }
 .diplome .diplome-content .diplome-description {
   font-size: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+  .experiences {
+    padding: 15px;
+    min-width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+}
+.experiences .experience {
+  padding: 15px;
+  margin: 15px 0;
+}
+.experiences .experience .experience-header {
+  position: relative;
+  padding: 50px;
+  background-color: rgba(100, 42, 148, 0.5960784314);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid #ffffff;
+  border-bottom: none;
+}
+.experiences .experience .experience-header .experience-title {
+  text-align: center;
+}
+.experiences .experience .experience-header .experience-logo {
+  position: absolute;
+  border-radius: 50%;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100px;
+  max-height: 100px;
+}
+.experiences .experience .experience-content {
+  border: 1px solid #ffffff;
+  border-top: none;
+  padding: 15px;
+  padding-top: 65px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.experiences .experience .experience-content .experience-subtitle {
+  font-size: 1.8rem;
+  margin: 0 0 10px 0;
+}
+.experiences .experience .experience-content .experience-date {
+  font-style: italic;
+}
+.experiences .experience .experience-content .experience-description {
+  margin-top: 15px;
 }
 
 .btn {
